@@ -32,13 +32,13 @@ jobs:
       run: dotnet restore Cnss.Vulnerabulite/Cnss.Vulnerabulite.csproj
 
     - name: Build
-      run: dotnet build Cnss.VulnerableApi/Cnss.VulnerableApi.csproj --no-restore
+      run: dotnet build Cnss.Vulnerabulite/Cnss.Vulnerabulite.csproj --no-restore
 
     # Étape 1 : Audit des vulnérabilités NuGet
     - name: Dependency Security Audit
       run: |
         echo "Exécution de l'audit des dépendances..."
-        dotnet list Cnss.VulnerableApi/Cnss.VulnerableApi.csproj package --vulnerable --include-transitive
+        dotnet list Cnss.Vulnerabulite/Cnss.Vulnerabulite.csproj package --vulnerable --include-transitive
 
     # Étape 2 : Scan SonarQube (Simulation de configuration)
     - name: Cache SonarQube Cloud packages
