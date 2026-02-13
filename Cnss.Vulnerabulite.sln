@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cnss.Vulnerabulite", "Cnss.Vulnerabulite\Cnss.Vulnerabulite.csproj", "{DB06006D-7E58-50B3-4BD4-1E36C1E37293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB06006D-7E58-50B3-4BD4-1E36C1E37293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB06006D-7E58-50B3-4BD4-1E36C1E37293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB06006D-7E58-50B3-4BD4-1E36C1E37293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB06006D-7E58-50B3-4BD4-1E36C1E37293}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8E689E6-4A61-49D0-9038-81553360E103}
+	EndGlobalSection
+EndGlobal
